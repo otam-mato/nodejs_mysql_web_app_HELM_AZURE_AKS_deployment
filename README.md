@@ -202,3 +202,63 @@ kubectl apply -f mysql-secret.yml
 ```yml
 kubectl apply -f deployment_app_v1.yaml
 ```
+
+### 4. HELM lint
+
+- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
+- **Apply it**:
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
+```
+
+### 5. HELM template
+
+- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
+- **Apply it**:
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
+```
+
+### 6. HELM install
+
+- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
+- **Apply it**:
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
+```
+
+### 7. Modify the .values to use V2
+
+- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
+- **Apply it**:
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
+```
+
+### 8. HELM upgrade
+
+- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
+- **Apply it**:
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
+```
+
+### 9. HELM rollback
+
+- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
+- **Apply it**:
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
+```
