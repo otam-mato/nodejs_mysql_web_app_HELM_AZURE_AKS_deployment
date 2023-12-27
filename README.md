@@ -200,7 +200,7 @@ Follow these steps for successful implementation:
 
 - **create the projects chart in Chart.yml**
   
-  <img width="893" alt="Screenshot 2023-12-27 at 21 29 49" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/001b9453-a278-4a8e-ade3-0939f763b59d">
+  <img width="893" alt="Screenshot 2023-12-27 at 21 31 38" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b00e45c6-a155-4104-89f8-1274710c7699">
 
 
 ### 3. Move the cloned Kubernetes manifests to the **coffee_app/templates** folder
@@ -273,6 +273,7 @@ kubectl apply -f deployment_app_v1.yaml
 kubectl apply -f deployment_app_v1.yaml
 ```
 
+<img width="893" alt="Screenshot 2023-12-27 at 21 31 38" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b00e45c6-a155-4104-89f8-1274710c7699">
 
 
 <p align="center">
