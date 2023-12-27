@@ -145,6 +145,12 @@ Follow these steps for successful implementation:
 ## Prerequisites
 
 - **MS Azure** account.
+- <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
+   <br>
+   
+   **`eksctl`** relies on the **AWS CLI** for certain operations. If you don't have the **AWS CLI** installed, you can follow the **AWS** documentation to install it: [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+   
+   </details>
 - <details markdown=1><summary markdown="span">Create an Azure VM</summary>
   <br>
   zzz
