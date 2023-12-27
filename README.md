@@ -22,3 +22,17 @@ The **HELM** is a package manager for Kubernetes applications. It simplifies the
    V1 and V2 versions uploaded into this [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
 
 2. The app and its database are placed in separate Kubernetes pods to secure decoupling, resource isolation, scaling and resilience.
+
+<br>
+
+## Technologies used
+- **MS Azure**
+- **AKS (Azure Kubernetes Service)**
+- **Node.JS**
+- **Express**
+- **JavaScript**
+- **MySQL**
+- **Docker**
+- **Kubernetes**
+- **HELM**
+<br>
