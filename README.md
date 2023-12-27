@@ -230,11 +230,11 @@ Follow these steps for successful implementation:
 
 - The `helm template` command is used to render a Helm chart locally without installing it into a Kubernetes cluster. This command is useful for generating the Kubernetes YAML manifests based on a Helm chart, allowing you to inspect the resulting output before deploying it to a cluster. It's often employed during development, testing, or as part of a continuous integration (CI) pipeline.
 
-```yml
-helm template coffee_app/
-```
-
-<img width="863" alt="Screenshot 2023-12-27 at 21 52 58" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/4bb46d6c-e981-4c4a-b938-9add7e5fb279">
+  ```yml
+  helm template coffee_app/
+  ```
+  
+  <img width="863" alt="Screenshot 2023-12-27 at 21 52 58" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/4bb46d6c-e981-4c4a-b938-9add7e5fb279">
 
 ### 6. HELM install
 
