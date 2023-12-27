@@ -179,7 +179,7 @@ Follow these steps for successful implementation:
 
 - **remove the unnecessary files**
 
-  ```sh
+  ```bash
   rm ./coffee_app/templates/* -r
   ```
 
