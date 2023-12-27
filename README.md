@@ -148,12 +148,12 @@ Follow these steps for successful implementation:
 - <details markdown=1><summary markdown="span">Create an Azure VM</summary>
   <br>
   zzz
-  </details>
+   </details>
 - <details markdown=1><summary markdown="span">Create an AKS cluster</summary>
   <br>
   zzz
-  </details>
+   </details>
 - <details markdown=1><summary markdown="span">Connect Azure VM to AKS cluster</summary>
   <br>
   zzz
-  </details>
+   </details>
