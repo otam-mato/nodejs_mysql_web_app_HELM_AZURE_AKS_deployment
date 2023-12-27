@@ -206,7 +206,7 @@ Follow these steps for successful implementation:
 
   <img width="893" alt="Screenshot 2023-12-27 at 21 37 53" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b2bef742-b70c-4021-ad71-81d8a5b579a3">
 
-  This file serves as a sourse to fill the set placeholders in the HELM's templates for manifests
+  In Helm, the `values.yaml` file is a configuration file used to define default values for Helm charts. It allows users to specify configuration parameters and their default values, which can then be overridden or customized when deploying the Helm chart.
 
 - **the project's final sructure:**
 
