@@ -177,7 +177,7 @@ Follow these steps for successful implementation:
 
   <img width="692" alt="Screenshot 2023-12-27 at 21 01 17" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/3d1cbf47-8d72-448c-b24c-f940e8da809f">
 
-- **remove the unnecessary files**
+- **remove the unnecessary for this project files**
 
   ```bash
   rm ./coffee_app/templates/* -r
