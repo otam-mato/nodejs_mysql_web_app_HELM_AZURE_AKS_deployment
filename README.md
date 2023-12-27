@@ -167,7 +167,7 @@ Follow these steps for successful implementation:
 
 ## Steps:
 
-### 1. Create the deployment of V1 of the app
+### 1. Create the HELM chart
 
 - **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
 
@@ -177,7 +177,7 @@ Follow these steps for successful implementation:
 kubectl apply -f deployment_app_v1.yaml
 ```
 
-### 2. Create the secret for the MySQL database mysql-secret
+### 2. Clone the current Git repository
 
 - **Encode the DB password using base64 and paste it into mysql-secret.yml:**
 
@@ -191,4 +191,14 @@ kubectl apply -f deployment_app_v1.yaml
 
 ```yml
 kubectl apply -f mysql-secret.yml
+```
+
+### 3. Move the Kubernetes manifests to the **/templates** folder
+
+- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+
+- **Apply it**:
+
+```yml
+kubectl apply -f deployment_app_v1.yaml
 ```
