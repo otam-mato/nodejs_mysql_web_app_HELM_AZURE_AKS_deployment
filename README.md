@@ -273,17 +273,12 @@ Follow these steps for successful implementation:
 
   - upgrade the app version
 
-  ```yml
-  helm upgrade coffeeapp coffee_app/
-  ```
-  <img width="1000" alt="Screenshot 2023-12-27 at 22 41 12" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/7fb9cd4c-6569-472a-8d2b-738c9077faa7">
-
-  The `helm upgrade` command is used to update a deployed release to a new version of a Helm chart or to apply changes to the configuration of an existing release. It is a powerful command that allows you to make changes to a running application without requiring a full reinstallation. 
-
-- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
-
-
-
+    ```yml
+    helm upgrade coffeeapp coffee_app/
+    ```
+    <img width="1000" alt="Screenshot 2023-12-27 at 22 41 12" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/7fb9cd4c-6569-472a-8d2b-738c9077faa7">
+  
+    The `helm upgrade` command is used to update a deployed release to a new version of a Helm chart or to apply changes to the configuration of an existing release. It is a powerful command that allows you to make changes to a running application without requiring a full reinstallation. 
 
 
 ### 9. HELM rollback
