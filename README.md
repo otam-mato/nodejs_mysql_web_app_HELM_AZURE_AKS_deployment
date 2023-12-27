@@ -238,13 +238,14 @@ Follow these steps for successful implementation:
 
 ### 6. HELM install
 
-- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+- install the chart
 
-- **Apply it**:
+  ```yml
+  helm install coffeeapp coffee_app/
+  ```
 
-```yml
-kubectl apply -f deployment_app_v1.yaml
-```
+  <img width="888" alt="Screenshot 2023-12-27 at 22 15 17" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/5767b3d5-c27e-42f9-9bd5-b6d8e82f0a98">
+
 
 ### 7. Modify the .values to use V2
 
