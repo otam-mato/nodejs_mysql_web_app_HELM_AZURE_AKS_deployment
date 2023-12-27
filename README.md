@@ -222,6 +222,8 @@ Follow these steps for successful implementation:
   
   <img width="931" alt="Screenshot 2023-12-27 at 21 47 51" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/9ad1a0a6-60bf-4d40-813d-fbf0eed06ad3">
 
+  Running `helm lint` is a good practice before deploying a Helm chart to catch potential issues early in the development and deployment process. It helps ensure that the chart is well-formed, follows best practices, and is less likely to cause problems when applied to a Kubernetes cluster.
+
 ### 5. HELM template
 
 - **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
