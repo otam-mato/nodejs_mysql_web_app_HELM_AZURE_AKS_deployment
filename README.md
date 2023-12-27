@@ -146,6 +146,8 @@ Follow these steps for successful implementation:
 
 - **MS Azure** account.
 - <details markdown=1><summary markdown="span">Create an Azure VM</summary>
+  zzz
   </details>
 - <details markdown=1><summary markdown="span">Create an AKS cluster</summary>
+  zzz
   </details>
