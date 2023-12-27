@@ -108,4 +108,4 @@ Follow these steps for successful implementation:
 
 <br>
 
-<img width="915" alt="Screenshot 2023-12-27 at 17 21 54" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/51ee6462-a454-45bc-ad73-5d429b36dbe0">
+<img width="1200" alt="Screenshot 2023-12-27 at 17 21 54" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/51ee6462-a454-45bc-ad73-5d429b36dbe0">
