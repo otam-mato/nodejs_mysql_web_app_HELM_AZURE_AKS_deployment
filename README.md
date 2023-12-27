@@ -98,15 +98,15 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 Follow these steps for successful implementation:
 
-1. [**Create infrastructure for your cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#prerequisites)
 2. [**Create an AKS cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#prerequisites)
 3. [**Create an Azure VM**]()
-4. [**Connect the Azure VM to AKS cluster**]()
-5. [**Install HELM**]()
-6. [**Create a HELM chart**]()
-7. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
-8. [**Upgrade the app to V2**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-create-the-deployment-of-v2-of-the-app)
-9. [**Roll the V2 back to V1**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
+4. [**Install Azure CLI**]()
+5. [**Connect the Azure VM to AKS cluster**]()
+6. [**Install HELM**]()
+7. [**Create a HELM chart**]()
+8. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
+9. [**Upgrade the app to V2**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-create-the-deployment-of-v2-of-the-app)
+10. [**Roll the V2 back to V1**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
 
 <br>
 
