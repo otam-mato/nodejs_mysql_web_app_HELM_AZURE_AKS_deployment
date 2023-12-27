@@ -144,4 +144,4 @@ Follow these steps for successful implementation:
 
 ## Prerequisites
 
-- **AWS Cloud** account.
+- **MS Azure** account.
