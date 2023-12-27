@@ -208,25 +208,19 @@ Follow these steps for successful implementation:
 
   This file serves as a sourse to fill the set placeholders in the HELM's templates for manifests
 
-### 3. Move the cloned Kubernetes manifests to the **coffee_app/templates** folder
+- **the project's final sructure:**
 
-- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
-
-- **Apply it**:
-
-```yml
-kubectl apply -f deployment_app_v1.yaml
-```
+  <img width="931" alt="Screenshot 2023-12-27 at 21 44 29" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a960ab8e-0a5c-4537-9964-6b8b63a8059e">
 
 ### 4. HELM lint
 
-- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+- HELM's "lint" command  is used in Helm to perform a static analysis of a chart. It helps identify issues and errors in a Helm chart before it is deployed to a Kubernetes cluster. The lint command checks the chart's syntax, structure, and best practices, providing feedback on potential problems.
 
-- **Apply it**:
-
-```yml
-kubectl apply -f deployment_app_v1.yaml
-```
+  ```sh
+  helm lint ./coffee_app/
+  ```
+  
+  <img width="931" alt="Screenshot 2023-12-27 at 21 47 51" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/9ad1a0a6-60bf-4d40-813d-fbf0eed06ad3">
 
 ### 5. HELM template
 
