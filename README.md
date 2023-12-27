@@ -147,4 +147,4 @@ Follow these steps for successful implementation:
 - **MS Azure** account.
 - **Create an Azure VM**
 - <details markdown=1><summary markdown="span">Install and configure your AWS CLI.</summary>
-  <details/>
+  </details>
