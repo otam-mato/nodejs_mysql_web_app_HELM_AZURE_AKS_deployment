@@ -142,4 +142,6 @@ Follow these steps for successful implementation:
 
 <br>
 
+## Prerequisites
 
+- **AWS Cloud** account.
