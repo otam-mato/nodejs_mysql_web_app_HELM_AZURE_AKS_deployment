@@ -9,3 +9,15 @@
 >
 > In the current installment, we're deploying the web application on **MS Azure AKS** using **HELM**. Subsequently, we'll introduce the second version of the app and then rollback to the first version with HELM.
 <br>
+
+## Deployment Strategy
+
+The **HELM** is a package manager for Kubernetes applications. It simplifies the deployment and management of applications on Kubernetes clusters. Helm uses charts, which are packages of pre-configured Kubernetes resources, to define, install, and upgrade even the most complex Kubernetes applications and their dependencies. It helps streamline the deployment process, reduce errors, and enable versioning and rollbacks for Kubernetes applications.
+
+1. In this demo, we will use **HELM** to deploy:
+   - V1 deployment which will host the version 1 of the app.
+   - V2 deployment which will host the version 2 of the app.
+
+   V1 and V2 versions uploaded into this [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
+
+2. The app and its database are placed in separate Kubernetes pods to secure decoupling, resource isolation, scaling and resilience.
