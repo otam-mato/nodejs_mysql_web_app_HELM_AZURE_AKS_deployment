@@ -158,3 +158,7 @@ Follow these steps for successful implementation:
   <br>
   zzz
    </details>
+- <details markdown=1><summary markdown="span">Install HELM</summary>
+  <br>
+  zzz
+   </details>
