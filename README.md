@@ -296,12 +296,7 @@ Follow these steps for successful implementation:
   ```
   <img width="1028" alt="Screenshot 2023-12-27 at 22 57 21" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a1c769c6-d42b-4612-a14b-cb9a1f5ffcbb">
 
+  <img width="888" alt="Screenshot 2023-12-27 at 22 23 33" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/1a3301c9-e1a0-4922-b822-ee4affc45f4e">
 
 
 
-<img width="893" alt="Screenshot 2023-12-27 at 21 31 38" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b00e45c6-a155-4104-89f8-1274710c7699">
-
-
-<p align="center">
-   <img width="800" alt="Screenshot 2023-10-05 at 19 33 42" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658"> 
-</p>
