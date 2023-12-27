@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img height=50" width="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/helm/blue/" /><img src="https://skillicons.dev/icons?i=azure,kubernetes,docker,nodejs,mysql"/>
+    <img height=50" width="50" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/helm/blue/" /><img src="https://skillicons.dev/icons?i=azure,kubernetes,docker,nodejs,mysql"/><img height="32" width="32" src="https://cdn.simpleicons.org/simpleicons/gray"
   </a>
 </p>
 
-<img height="32" width="32" src="https://cdn.simpleicons.org/simpleicons/gray"
+
 
 <br>
 
