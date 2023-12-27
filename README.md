@@ -202,6 +202,8 @@ Follow these steps for successful implementation:
   
   <img width="893" alt="Screenshot 2023-12-27 at 21 31 38" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b00e45c6-a155-4104-89f8-1274710c7699">
 
+  The `Chart.yaml` file is a metadata file that provides essential information about a Helm chart. It is a required file in every Helm chart, and it contains details such as the chart's name, version, description, and other metadata. The information in the Chart.yaml file helps users and Helm itself understand the characteristics of the chart.
+
 - **create the ./values.yaml**
 
   <img width="893" alt="Screenshot 2023-12-27 at 21 37 53" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b2bef742-b70c-4021-ad71-81d8a5b579a3">
