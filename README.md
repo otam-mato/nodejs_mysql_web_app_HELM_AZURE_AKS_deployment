@@ -291,6 +291,8 @@ Follow these steps for successful implementation:
 
 - **Rollback to the previous version**
 
+  The helm rollback command in Helm is used to roll back a release to a previous version. This can be useful if a recent upgrade to a Helm chart introduces issues, and you want to revert to a known, stable state.
+
   ```sh
   helm rollback coffeeapp 1
   ```
