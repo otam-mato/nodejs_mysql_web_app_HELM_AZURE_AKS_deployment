@@ -253,15 +253,21 @@ Follow these steps for successful implementation:
 
   Now, the version V1 of the app is deployed on the AKS cluster 
 
-### 7. Modify the .values to use V2
+### 7. Modify the ./values.yaml to use V2
 
-- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
+- **modify the ./values.yaml file**
+  This actually allows to pull another (V2) container image from the same DockerHub repository
+  
+  <img width="783" alt="Screenshot 2023-12-27 at 22 28 48" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/36d9bc79-16be-4487-a478-41665eae3f6d">
 
-- **Apply it**:
+- **modify the ./Chart.yaml file**
+  Make sure to follow semantic versioning principles when updating the version number. Typically, you increment the version number based on the type of changes made:
 
-```yml
-kubectl apply -f deployment_app_v1.yaml
-```
+  - Increment the major version.
+  - Increment the minor version for backward-compatible feature additions.
+  - Increment the patch version for backward-compatible bug fixes.
+    
+  <img width="830" alt="Screenshot 2023-12-27 at 22 35 04" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b3325b7b-a333-4953-92d5-01809270f185">
 
 ### 8. HELM upgrade
 
