@@ -246,6 +246,7 @@ Follow these steps for successful implementation:
 
   <img width="888" alt="Screenshot 2023-12-27 at 22 15 17" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/5767b3d5-c27e-42f9-9bd5-b6d8e82f0a98">
 
+  The `helm install` command is used to deploy a Helm chart onto a Kubernetes cluster. It takes a chart as input, installs it into the cluster, and creates a release, which is an instance of that chart running on the cluster.
 
 ### 7. Modify the .values to use V2
 
