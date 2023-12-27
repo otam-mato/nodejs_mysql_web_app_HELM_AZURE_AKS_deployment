@@ -108,4 +108,15 @@ Follow these steps for successful implementation:
 
 <br>
 
-<img width="1200" alt="Screenshot 2023-12-27 at 17 21 54" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/51ee6462-a454-45bc-ad73-5d429b36dbe0">
+<br>
+
+## Architecture Diagram
+
+<p align="center">
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/51ee6462-a454-45bc-ad73-5d429b36dbe0" width="1000px"/>
+</p>
+
+>**Note:** For demo purposes I have chosen to deploy just a single MySQL container pod. Configuring additional pods for replication and data synchronization involves more intricate configurations. I intend to incorporate these advanced setups in my future projects, ensuring that the current project remains concise and straightforward.
+
+<br>
+
