@@ -1,4 +1,4 @@
-# Node.JS + MySQL Web App.<br><br>HELM deployment and upgrading on a Kubernetes cluster launched on MS Azure AKS.
+# Node.JS + MySQL Web App.<br><br>HELM deployment and upgrading the app on a Kubernetes cluster launched on MS Azure AKS.
 
 <br>
 
