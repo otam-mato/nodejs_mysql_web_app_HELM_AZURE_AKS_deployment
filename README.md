@@ -186,7 +186,7 @@ Follow these steps for successful implementation:
   <img width="692" alt="Screenshot 2023-12-27 at 21 04 29" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/04df1638-41ee-4804-8958-3abf418a310c">
 
 
-### 2. Clone the current Git repository
+### 2. Clone the current Git repository and update the project's structure
 
 - **clone the repository**
 
@@ -202,6 +202,11 @@ Follow these steps for successful implementation:
   
   <img width="893" alt="Screenshot 2023-12-27 at 21 31 38" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b00e45c6-a155-4104-89f8-1274710c7699">
 
+- **create the ./values.yaml**
+
+  <img width="893" alt="Screenshot 2023-12-27 at 21 37 53" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b2bef742-b70c-4021-ad71-81d8a5b579a3">
+
+  This file serves as a sourse to fill the set placeholders in the HELM's templates for manifests
 
 ### 3. Move the cloned Kubernetes manifests to the **coffee_app/templates** folder
 
