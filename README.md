@@ -188,21 +188,13 @@ Follow these steps for successful implementation:
 
 ### 2. Clone the current Git repository
 
-- **Encode the DB password using base64 and paste it into mysql-secret.yml:**
+- clone the repository
 
-<p align="center">
-   <img width="800" alt="Screenshot 2023-10-05 at 19 33 42" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658"> 
-</p>
+  ```sh
+  git clone https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment.git
+  ```
 
-- **[Download the manifest 'mysql-secret.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/4a8939fcb82b53323fa52a37c6b398ef99575961/mysql-secret.yml)**
-
-- **Create the secret:**
-
-```yml
-kubectl apply -f mysql-secret.yml
-```
-
-### 3. Move the Kubernetes manifests to the **/templates** folder
+### 3. Move the cloned Kubernetes manifests to the **coffee_app/templates** folder
 
 - **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
 
@@ -271,3 +263,8 @@ kubectl apply -f deployment_app_v1.yaml
 ```yml
 kubectl apply -f deployment_app_v1.yaml
 ```
+
+
+<p align="center">
+   <img width="800" alt="Screenshot 2023-10-05 at 19 33 42" src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/cfadecee-4586-48e9-ba90-c82c8be08658"> 
+</p>
