@@ -226,13 +226,13 @@ Follow these steps for successful implementation:
 
 ### 5. HELM template
 
-- **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
-
-- **Apply it**:
+- The `helm template` command is used to render a Helm chart locally without installing it into a Kubernetes cluster. This command is useful for generating the Kubernetes YAML manifests based on a Helm chart, allowing you to inspect the resulting output before deploying it to a cluster. It's often employed during development, testing, or as part of a continuous integration (CI) pipeline.
 
 ```yml
-kubectl apply -f deployment_app_v1.yaml
+helm template coffee_app/
 ```
+
+<img width="863" alt="Screenshot 2023-12-27 at 21 52 58" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/4bb46d6c-e981-4c4a-b938-9add7e5fb279">
 
 ### 6. HELM install
 
