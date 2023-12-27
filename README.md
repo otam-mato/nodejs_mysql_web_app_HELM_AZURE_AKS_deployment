@@ -280,6 +280,10 @@ Follow these steps for successful implementation:
   
     The `helm upgrade` command is used to update a deployed release to a new version of a Helm chart or to apply changes to the configuration of an existing release. It is a powerful command that allows you to make changes to a running application without requiring a full reinstallation. 
 
+    <img width="1024" alt="Screenshot 2023-12-27 at 22 49 04" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/758c3633-8945-4860-a044-3880298965cd">
+
+    <img width="1024" alt="Screenshot 2023-12-27 at 22 50 05" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/271fa783-202c-43ee-9417-2e83ca90470d">
+
 
 ### 9. HELM rollback
 
