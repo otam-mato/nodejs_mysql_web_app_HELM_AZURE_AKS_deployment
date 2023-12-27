@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=azure,kubernetes,docker,nodejs,mysql" />
-    <img height="40" width="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/helm.svg" />
+    <img src="https://skillicons.dev/icons?i=azure,kubernetes,docker,nodejs,mysql"/>
+    <img height=45" width="45" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/helm.svg" />
   </a>
 </p>
 
