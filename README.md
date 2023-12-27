@@ -169,21 +169,21 @@ Follow these steps for successful implementation:
 
 ### 1. Create the HELM chart
 
-- create the structure
+- **create the structure**
 
-```sh
-helm create ./coffee_app
-```
+  ```sh
+  helm create ./coffee_app
+  ```
 
-<img width="692" alt="Screenshot 2023-12-27 at 21 01 17" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/3d1cbf47-8d72-448c-b24c-f940e8da809f">
+  <img width="692" alt="Screenshot 2023-12-27 at 21 01 17" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/3d1cbf47-8d72-448c-b24c-f940e8da809f">
 
-- remove the unnecessary files
+- **remove the unnecessary files**
 
-```sh
-rm ./coffee_app/templates/* -r
-```
+  ```sh
+  rm ./coffee_app/templates/* -r
+  ```
 
-<img width="692" alt="Screenshot 2023-12-27 at 21 04 29" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/04df1638-41ee-4804-8958-3abf418a310c">
+  <img width="692" alt="Screenshot 2023-12-27 at 21 04 29" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/04df1638-41ee-4804-8958-3abf418a310c">
 
 
 ### 2. Clone the current Git repository
