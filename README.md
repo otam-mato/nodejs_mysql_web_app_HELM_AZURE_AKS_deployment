@@ -17,6 +17,7 @@ The **HELM** is a package manager for Kubernetes applications. It simplifies the
 1. In this demo, we will use **HELM** to deploy:
    - V1 deployment which will host the version 1 of the app.
    - V2 deployment which will host the version 2 of the app.
+   - Finally we will rollback V2 to V1.
 
    V1 and V2 versions uploaded into this [DockerHub repository](https://hub.docker.com/repository/docker/montcarotte/fullstack_nodejs_mysql_demo/general)
 
