@@ -194,6 +194,11 @@ Follow these steps for successful implementation:
   git clone https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment.git
   ```
 
+- copy the manifests into the HELM project folder "coffee_app"
+
+  <img width="893" alt="Screenshot 2023-12-27 at 21 19 59" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/79b972eb-afae-4c74-b9ac-66bab54b7f53">
+
+
 ### 3. Move the cloned Kubernetes manifests to the **coffee_app/templates** folder
 
 - **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
@@ -263,6 +268,7 @@ kubectl apply -f deployment_app_v1.yaml
 ```yml
 kubectl apply -f deployment_app_v1.yaml
 ```
+
 
 
 <p align="center">
