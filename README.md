@@ -169,13 +169,15 @@ Follow these steps for successful implementation:
 
 ### 1. Create the HELM chart
 
+```sh
+helm create /root/coffee_app
+```
+
 - **[Download the manifest 'deployment_app_v1.yml'](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/66874767022185dcf7c7eae0c8bc2967ec60dcea/deployment_app_v1.yml)**
 
 - **Apply it**:
 
-```yml
-kubectl apply -f deployment_app_v1.yaml
-```
+
 
 ### 2. Clone the current Git repository
 
