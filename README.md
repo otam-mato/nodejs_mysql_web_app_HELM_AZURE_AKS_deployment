@@ -299,4 +299,4 @@ Follow these steps for successful implementation:
   <img width="888" alt="Screenshot 2023-12-27 at 22 23 33" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/1a3301c9-e1a0-4922-b822-ee4affc45f4e">
 
 
-
+  Now, the app is back to V1
