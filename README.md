@@ -98,7 +98,7 @@ The app sets up a web server for a supplier management system. It allows viewing
 
 Follow these steps for successful implementation:
 
-1. [**Create an AKS cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#prerequisites)
+1. [**Create an AKS cluster**]()
 2. [**Create an Azure VM**]()
 3. [**Install Azure CLI**]()
 4. [**Create a Kubernetes Kluster in Azure AKS**]()
