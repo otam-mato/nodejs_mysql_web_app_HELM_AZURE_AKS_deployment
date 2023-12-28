@@ -218,7 +218,7 @@ Follow these steps for successful implementation:
 - **clone the current repository**
 
   ```sh
-  git clone https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment.git
+  git clone https://github.com/otam-mato/nodejs_mysql_web_app_helm_azure_aks_deployment.git
   ```
 
 - **place the cloned charts into the HELM project folder "coffee_app"**
