@@ -223,7 +223,11 @@ Follow these steps for successful implementation:
   git clone https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment.git
   ```
 
-- **place the cloned manifests into the HELM project folder "coffee_app"**
+- **place the cloned charts into the HELM project folder "coffee_app"**
+
+  ```
+  cp ./nodejs_mysql_web_app_HELM_AZURE_AKS_deployment ./coffee_app/templates/
+  ```
 
   <img width="893" alt="Screenshot 2023-12-27 at 21 19 59" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/79b972eb-afae-4c74-b9ac-66bab54b7f53">
 
