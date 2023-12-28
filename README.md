@@ -140,8 +140,9 @@ Follow these steps for successful implementation:
 </p>
 
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/2121055f-2a92-4d42-bae1-b38de16110c4" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/597c7427-7716-4435-8cee-5b616733a464" width="700px"/>
 </p>
+
 
 <br>
 
