@@ -304,9 +304,9 @@ Follow these steps for successful implementation:
   
     The `helm upgrade` command is used to update a deployed release to a new version of a Helm chart or to apply changes to the configuration of an existing release. It is a powerful command that allows you to make changes to a running application without requiring a full reinstallation. 
 
-    <img width="1024" alt="Screenshot 2023-12-27 at 22 49 04" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/758c3633-8945-4860-a044-3880298965cd">
+    <img width="1000" alt="Screenshot 2023-12-27 at 22 49 04" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/758c3633-8945-4860-a044-3880298965cd">
 
-    <img width="1024" alt="Screenshot 2023-12-27 at 22 50 05" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/afb61e18-b1a6-49d1-b110-c6f535b64f59">
+    <img width="1000" alt="Screenshot 2023-12-27 at 22 50 05" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/afb61e18-b1a6-49d1-b110-c6f535b64f59">
 
     Now we have the V2 app version deployed
 
@@ -319,9 +319,9 @@ Follow these steps for successful implementation:
   ```sh
   helm rollback coffeeapp 1
   ```
-  <img width="1028" alt="Screenshot 2023-12-27 at 22 57 21" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a1c769c6-d42b-4612-a14b-cb9a1f5ffcbb">
+  <img width="1000" alt="Screenshot 2023-12-27 at 22 57 21" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a1c769c6-d42b-4612-a14b-cb9a1f5ffcbb">
 
-  <img width="888" alt="Screenshot 2023-12-27 at 22 23 33" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/0112413c-8c10-49f1-a67f-59f41e6fa35e">
+  <img width="1000" alt="Screenshot 2023-12-27 at 22 23 33" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/0112413c-8c10-49f1-a67f-59f41e6fa35e">
 
   Now, the app is back to V1
 
