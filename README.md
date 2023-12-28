@@ -281,7 +281,7 @@ Follow these steps for successful implementation:
 
   Now, the version V1 of the app is deployed on the AKS cluster
   
-### 7. Modify the configuration (./values.yaml and ./Chart.yaml) to use V2 of the app
+### 7. Modify the configuration (./values.yaml and ./Chart.yaml) to use the V2 of the app
 
 - **modify the ./values.yaml file**
   This actually allows to pull another (V2) container image from the same DockerHub repository
