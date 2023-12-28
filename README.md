@@ -109,7 +109,7 @@ Follow these steps for successful implementation:
 9. [**HELM `lint`**]()
 10. [**HELM `template`**]()
 12. [**Deploy the V1 app (HELM `install`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
-13. [**Modify the ./values.yaml and ./Chart.yaml to use V2 of the app**]()
+13. [**Modify the configuration (./values.yaml and ./Chart.yaml) to use V2 of the app**]()
 14. [**Upgrade the app to V2 (HELM `upgrade`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-create-the-deployment-of-v2-of-the-app)
 15. [**Roll the V2 back to V1 (HELM `rollback`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
 
@@ -281,7 +281,7 @@ Follow these steps for successful implementation:
 
   Now, the version V1 of the app is deployed on the AKS cluster
   
-### 7. Modify the ./values.yaml and ./Chart.yaml to use V2 of the app
+### 7. Modify the configuration (./values.yaml and ./Chart.yaml) to use V2 of the app
 
 - **modify the ./values.yaml file**
   This actually allows to pull another (V2) container image from the same DockerHub repository
