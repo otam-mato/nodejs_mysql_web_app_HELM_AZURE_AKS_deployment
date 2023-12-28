@@ -106,7 +106,7 @@ Follow these steps for successful implementation:
 6. [**Install HELM**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
 7. [**Create a HELM chart**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#1-create-the-helm-chart)
 8. [**Clone the current Git repository and update the HELM project's structure**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#1-create-the-helm-chart)
-9. [**HELM `lint`**]()
+9. [**HELM `lint`**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#4-helm-lint)
 10. [**HELM `template`**]()
 12. [**Deploy the V1 app (HELM `install`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
 13. [**Modify the configuration (./values.yaml and ./Chart.yaml) to use V2 of the app**]()
