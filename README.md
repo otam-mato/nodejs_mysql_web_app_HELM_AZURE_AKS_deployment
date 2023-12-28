@@ -156,6 +156,9 @@ Follow these steps for successful implementation:
   ```sh
   apt install azure-cli
   ```
+  
+  https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+  
   </details>
 - <details markdown=1><summary markdown="span">Create an AKS cluster</summary>
   <br>
