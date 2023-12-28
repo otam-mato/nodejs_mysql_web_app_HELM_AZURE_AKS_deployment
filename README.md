@@ -152,7 +152,9 @@ Follow these steps for successful implementation:
   </details>
 - <details markdown=1><summary markdown="span">Install Azure CLI</summary>
   <br>
-  zzz
+  ```
+  apt install azure-cli
+  ```
   </details>
 - <details markdown=1><summary markdown="span">Create an AKS cluster</summary>
   <br>
