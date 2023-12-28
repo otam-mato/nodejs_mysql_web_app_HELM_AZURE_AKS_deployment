@@ -111,7 +111,7 @@ Follow these steps for successful implementation:
 12. [**Deploy the V1 app (HELM `install`)**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#6-helm-install)
 13. [**Modify the configuration (./values.yaml and ./Chart.yaml) to use V2 of the app**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#7-modify-the-configuration-valuesyaml-and-chartyaml-to-use-v2-of-the-app)
 14. [**Upgrade the app to V2 (HELM `upgrade`)**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#8-helm-upgrade)
-15. [**Roll the V2 back to V1 (HELM `rollback`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
+15. [**Roll the V2 back to V1 (HELM `rollback`)**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#9-helm-rollback)
 
 <br>
 
