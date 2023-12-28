@@ -181,7 +181,7 @@ Follow these steps for successful implementation:
 
 ### 1. Create the HELM chart
 
-- **create the structure**
+- **create the HELM project structure**
 
   ```sh
   helm create ./coffee_app
@@ -200,7 +200,7 @@ Follow these steps for successful implementation:
 
 ### 2. Clone the current Git repository and update the project's structure
 
-- **clone the repository**
+- **clone the current repository**
 
   ```sh
   git clone https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment.git
