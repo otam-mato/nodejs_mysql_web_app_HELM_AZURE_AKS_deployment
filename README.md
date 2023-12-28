@@ -13,7 +13,7 @@
 <br>
 
 > [!NOTE]
-> This is a part of a series of demo projects in which I manipulate a Node.js application using various technologies.<br>
+> This is a part of a series of demo projects in which I manipulate a Node.js application applying various technologies.<br>
 >
 > The app built using Node.js and Express and integrates with MySQL database, originally presented at this [GitHub Repository](https://github.com/otam-mato/nodejs_mysql_web_app_terraform.git). The previous [project](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes.git) involved the "Canary" deployment on **AWS EKS**.
 >
