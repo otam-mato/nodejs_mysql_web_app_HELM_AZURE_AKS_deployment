@@ -152,8 +152,8 @@ Follow these steps for successful implementation:
   </details>
 - <details markdown=1><summary markdown="span">Create an AKS cluster</summary>
   <br>
-  zzz
-   </details>
+  <img width="1000" alt="Screenshot 2023-12-28 at 08 02 05" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/f202bcc1-f89f-4e4d-843b-8847b2be3206">
+  </details>
 - <details markdown=1><summary markdown="span">Connect Azure VM to AKS cluster</summary>
   <br>
   zzz
