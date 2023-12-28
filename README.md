@@ -105,11 +105,13 @@ Follow these steps for successful implementation:
 5. [**Connect the Azure VM to AKS cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
 6. [**Install HELM**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
 7. [**Create a HELM chart**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
-8. [**Clone the current Git repository and update the project's structure**]()
-9. 
-10. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
-11. [**Upgrade the app to V2**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-create-the-deployment-of-v2-of-the-app)
-12. [**Roll the V2 back to V1**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
+8. [**Clone the current Git repository and update the HELM project's structure**]()
+9. [**HELM `lint`**]()
+10. [**HELM `template`**]()
+12. [**Deploy the V1 app (HELM `install`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
+13. [**Modify the ./values.yaml and ./Chart.yaml to use V2 of the app**]()
+14. [**Upgrade the app to V2 (HELM `upgrade`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-create-the-deployment-of-v2-of-the-app)
+15. [**Roll the V2 back to V1 (HELM `rollback`)**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
 
 <br>
 
@@ -131,7 +133,6 @@ Follow these steps for successful implementation:
 
 <p align="center">
   <img src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/4c6be1a2-1c37-40e7-92d5-c4efb2e3dbf2" width="700px"/>
-
 </p>
 
 <p align="center">
@@ -253,7 +254,7 @@ Follow these steps for successful implementation:
 
   Running `helm lint` is a good practice before deploying a Helm chart to catch potential issues early in the development and deployment process. It helps ensure that the chart is well-formed, follows best practices, and is less likely to cause problems when applied to a Kubernetes cluster.
 
-### 5. HELM template
+### 5. HELM `template`
 
 - The `helm template` command is used to render a Helm chart locally without installing it into a Kubernetes cluster. This command is useful for generating the Kubernetes YAML manifests based on a Helm chart, allowing you to inspect the resulting output before deploying it to a cluster. It's often employed during development, testing, or as part of a continuous integration (CI) pipeline.
 
@@ -263,7 +264,7 @@ Follow these steps for successful implementation:
   
   <img width="863" alt="Screenshot 2023-12-27 at 21 52 58" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/4bb46d6c-e981-4c4a-b938-9add7e5fb279">
 
-### 6. HELM install
+### 6. HELM `install`
 
 - install the chart
 
@@ -280,7 +281,7 @@ Follow these steps for successful implementation:
 
   Now, the version V1 of the app is deployed on the AKS cluster
   
-### 7. Modify the ./values.yaml to use V2
+### 7. Modify the ./values.yaml and ./Chart.yaml to use V2 of the app
 
 - **modify the ./values.yaml file**
   This actually allows to pull another (V2) container image from the same DockerHub repository
@@ -296,7 +297,7 @@ Follow these steps for successful implementation:
     
   <img width="830" alt="Screenshot 2023-12-27 at 22 35 04" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b3325b7b-a333-4953-92d5-01809270f185">
 
-### 8. HELM upgrade
+### 8. HELM `upgrade`
 
   - upgrade the app version
 
@@ -313,7 +314,7 @@ Follow these steps for successful implementation:
 
     Now we have the V2 app version deployed
 
-### 9. HELM rollback
+### 9. HELM `rollback`
 
 - **Rollback to the previous version**
 
