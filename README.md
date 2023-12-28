@@ -148,8 +148,8 @@ Follow these steps for successful implementation:
 
 - <details markdown=1><summary markdown="span">Create an Azure VM</summary>
   <br>
-  zzz
-   </details>
+  <img width="1000" alt="Screenshot 2023-12-28 at 08 00 15" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/c2d4baff-32e4-4e37-a3a8-cf470ff06518">
+  </details>
 - <details markdown=1><summary markdown="span">Create an AKS cluster</summary>
   <br>
   zzz
