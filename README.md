@@ -104,7 +104,7 @@ Follow these steps for successful implementation:
 4. [**Create a Kubernetes Kluster in Azure AKS**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
 5. [**Connect the Azure VM to AKS cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
 6. [**Install HELM**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
-7. [**Create a HELM chart**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
+7. [**Create a HELM chart**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#1-create-the-helm-chart)
 8. [**Clone the current Git repository and update the HELM project's structure**]()
 9. [**HELM `lint`**]()
 10. [**HELM `template`**]()
