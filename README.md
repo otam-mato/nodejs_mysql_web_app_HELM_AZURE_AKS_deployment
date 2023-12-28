@@ -152,7 +152,8 @@ Follow these steps for successful implementation:
   </details>
 - <details markdown=1><summary markdown="span">Install Azure CLI</summary>
   <br>
-  ```
+  
+  ```sh
   apt install azure-cli
   ```
   </details>
@@ -179,6 +180,9 @@ Follow these steps for successful implementation:
   sudo apt-get update
   sudo apt-get install helm
   ```
+
+  https://helm.sh/docs/intro/install/
+  
   </details>
 
 <br>
