@@ -105,10 +105,11 @@ Follow these steps for successful implementation:
 5. [**Connect the Azure VM to AKS cluster**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
 6. [**Install HELM**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
 7. [**Create a HELM chart**](https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/blob/main/README.md#prerequisites)
-8. 
-9. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
-10. [**Upgrade the app to V2**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-create-the-deployment-of-v2-of-the-app)
-11. [**Roll the V2 back to V1**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
+8. [**Clone the current Git repository and update the project's structure**]()
+9. 
+10. [**Deploy the V1 app**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#1-create-the-deployment-of-v1-of-the-app)
+11. [**Upgrade the app to V2**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#4-create-the-deployment-of-v2-of-the-app)
+12. [**Roll the V2 back to V1**](https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/blob/main/README.md#7-test-the-app)
 
 <br>
 
@@ -240,7 +241,7 @@ Follow these steps for successful implementation:
 
   <img width="931" alt="Screenshot 2023-12-27 at 21 44 29" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a960ab8e-0a5c-4537-9964-6b8b63a8059e">
 
-### 4. HELM lint
+### 4. HELM `lint`
 
 - HELM's "lint" command  is used in Helm to perform a static analysis of a chart. It helps identify issues and errors in a Helm chart before it is deployed to a Kubernetes cluster. The lint command checks the chart's syntax, structure, and best practices, providing feedback on potential problems.
 
