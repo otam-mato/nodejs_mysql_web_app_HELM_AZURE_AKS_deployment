@@ -127,13 +127,12 @@ Follow these steps for successful implementation:
 </p>
 
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/a1a5042a-d944-4887-9a34-65e3a0959e3a" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/4c6be1a2-1c37-40e7-92d5-c4efb2e3dbf2" width="700px"/>
 
 </p>
 
-
 <p align="center">
-  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_kubernetes/assets/113034133/b0f5ee8a-ed8f-4727-8cc0-e3f64779c401" width="700px"/>
+  <img src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/9bfacd03-6ba4-4df2-ac05-0ce9e4394ec9" width="700px"/>
 </p>
 
 <p align="center">
