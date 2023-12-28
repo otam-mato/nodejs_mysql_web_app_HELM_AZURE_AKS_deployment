@@ -307,12 +307,11 @@ Follow these steps for successful implementation:
 
     <img width="1024" alt="Screenshot 2023-12-27 at 22 49 04" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/758c3633-8945-4860-a044-3880298965cd">
 
-    <img width="1024" alt="Screenshot 2023-12-27 at 22 50 05" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/271fa783-202c-43ee-9417-2e83ca90470d">
+    <img width="1024" alt="Screenshot 2023-12-27 at 22 50 05" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/afb61e18-b1a6-49d1-b110-c6f535b64f59">
 
     Now we have the V2 app version deployed
 
 ### 9. HELM rollback
-
 
 - **Rollback to the previous version**
 
