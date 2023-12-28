@@ -150,6 +150,10 @@ Follow these steps for successful implementation:
   <br>
   <img width="1000" alt="Screenshot 2023-12-28 at 08 00 15" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/c2d4baff-32e4-4e37-a3a8-cf470ff06518">
   </details>
+- <details markdown=1><summary markdown="span">Install Azure CLI</summary>
+  <br>
+  zzz
+  </details>
 - <details markdown=1><summary markdown="span">Create an AKS cluster</summary>
   <br>
   <img width="1000" alt="Screenshot 2023-12-28 at 08 02 05" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/f202bcc1-f89f-4e4d-843b-8847b2be3206">
