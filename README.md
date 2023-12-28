@@ -323,8 +323,7 @@ Follow these steps for successful implementation:
   ```
   <img width="1028" alt="Screenshot 2023-12-27 at 22 57 21" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a1c769c6-d42b-4612-a14b-cb9a1f5ffcbb">
 
-  <img width="888" alt="Screenshot 2023-12-27 at 22 23 33" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/1a3301c9-e1a0-4922-b822-ee4affc45f4e">
-
+  <img width="888" alt="Screenshot 2023-12-27 at 22 23 33" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/0112413c-8c10-49f1-a67f-59f41e6fa35e">
 
   Now, the app is back to V1
 
