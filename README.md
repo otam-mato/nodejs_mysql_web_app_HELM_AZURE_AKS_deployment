@@ -156,8 +156,13 @@ Follow these steps for successful implementation:
   </details>
 - <details markdown=1><summary markdown="span">Connect Azure VM to AKS cluster</summary>
   <br>
-  zzz
-   </details>
+  <img width="888" alt="Screenshot 2023-12-27 at 22 12 35" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/b287fa47-90bf-4d29-90cb-f5b172d8eccf">
+  <img width="924" alt="Screenshot 2023-12-27 at 22 09 48" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a449c5b4-f049-43a5-9e78-a6c7b0207ae8">
+  <img width="924" alt="Screenshot 2023-12-27 at 22 08 36" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/28b9a0a6-19d3-4b03-8ca1-0524d53f099e">
+  <img width="863" alt="Screenshot 2023-12-27 at 22 07 43" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/a4157378-a80f-4fd1-bafa-7ae26aac9837">
+  <img width="863" alt="Screenshot 2023-12-27 at 22 07 34" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/07d4dbca-b212-476e-9b4d-45af9877cd5f">
+  <img width="863" alt="Screenshot 2023-12-27 at 22 07 04" src="https://github.com/otam-mato/nodejs_mysql_web_app_HELM_AZURE_AKS_deployment/assets/113034133/fba45a12-5b3f-4a1d-87d5-4278b9a723ea">
+  </details>
 - <details markdown=1><summary markdown="span">Install HELM</summary>
   <br>
   zzz
